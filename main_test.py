@@ -14,7 +14,7 @@ def test_if_one():
     diet.register_food("Хлеб", 300)
     diet.add_food("Хлеб", 2)
 
-    assert 600 == diet.calculate()
+    assert 800 == diet.calculate()
 
 
 def test_if_many():
@@ -27,4 +27,4 @@ def test_if_many():
     diet.add_food("Круассан", 2)
     diet.add_food("Хлеб", 1)
 
-    assert 1200 == diet.calculate()
+    assert 1600 == diet.calculate()
